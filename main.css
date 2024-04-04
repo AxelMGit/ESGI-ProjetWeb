@@ -1,0 +1,320 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /*width: 80%*/
+  height: 100%
+
+  
+}  
+
+header {
+    background-color: #ffffff;
+    color: #1b3f4a;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 53px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  
+
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  color: #1b3f4a;
+
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1b3f4a;
+}
+
+.menu a used {
+  color: #f98899;
+}
+
+#logos {
+  width: 80%;
+}
+
+#icons {
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#icons-contact {
+  display: flex;
+  margin: auto;
+  width: 45%;
+}
+
+#bg {
+  background-image: url("img/background.jpg");
+
+  height: 64.5vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bg-text h2 {
+    margin-top: 100px;
+    font-family: "Candal", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.8em;
+    color: #ffffff;
+}
+
+.bg-text p {
+  margin-bottom: 100px;
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+#pink-rectangle {
+  width: 100%;
+  background-color: #fb8a9a; 
+  height: 60px;
+}
+
+#pink-rectangle p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: #ffffff;
+  opacity: 40%;
+
+  margin: 0;
+
+  padding-top: 15px;
+  padding-left: 80px;
+}
+
+
+
+
+.solution {
+  width: auto;
+  margin: 0 auto;
+
+  padding: 20px;
+}
+
+.solution h2 {
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5em;
+  color:#253b4d;
+}
+
+.solution h3 {
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.2em;
+  color:#f98899;
+}
+
+.solution h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: 400;
+  font-weight: 500;
+  font-size: 1.2em;
+  color:#f98899;
+}
+
+.solution p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color:#a49b95;
+}
+
+#dotted h2 {
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5em;
+  color:#253b4d;
+}
+
+#dotted-p {
+  margin-top: 2%;
+  margin-left: 8%;
+  margin-right: 6%;
+  margin-bottom: 7%;
+
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color:#a49b95;
+}
+
+#dotted {
+  text-align: center;
+  position: relative;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+
+  border: 2px dotted grey;
+  border-bottom: hidden;
+  
+  display: flex;
+  justify-content: space-around;
+
+  margin-left: 0px;
+  margin-right: 100px;
+}
+
+.blocs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.solution p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color:#a49b95;
+}
+
+.bloc {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.bloc-dotted {
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 2px dotted grey;
+}
+
+.bloc-dotted h2 {
+  color: white;
+  background-color: #213e4e;
+  padding: 20px 0 20px 0;
+}
+
+.bloc-dotted h3 {
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1em;
+  color:#253b4d;
+
+
+  color: white;
+  background-color: #213e4e;
+  padding: 30px 0 30px 0;
+}
+
+.bloc-dotted h4 {
+  font-family: "Candal", sans-serif;
+  font-style: 100;
+  font-weight: 500;
+  font-size: 1.0em;
+  color:#605f66;
+}
+
+.bloc-dotted p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color:#a49b95;
+  font-size: 0.9em;
+}
+
+.bloc-dotted li {
+  list-style: circle;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color:#a49b95;
+  text-align: left;
+  font-size: 0.8em;
+  margin-left: 30px;
+  line-height: 25px;
+}
+
+.bloc-dotted button {
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 0.8em;
+
+  border: hidden;
+
+
+  color: white;
+  background-color: #f98999;
+  padding: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+
+
+.bloc p {
+  text-align: left;
+}
+
+.bloc img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+
+footer {
+  width: 100%;
+  height: 150px; 
+  background-color: #213e4e; 
+
+  display: flex;
+  justify-content: space-around;
+
+  font-family: "Candal", sans-serif;
+  font-style: normal;
+  font-size: 0.75em;
+
+  text-decoration: none;
+
+  padding-top: 50px
+}
+
+footer a {
+  padding-top: 70px;
+
+  color: #ffffff;
+
+  text-decoration: none;
+}
