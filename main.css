@@ -212,6 +212,7 @@ header {
   width: 400px;
   text-align: center;
   padding: 10px;
+  
   margin-bottom: 40px;
   border: 2px dotted grey;
 }
@@ -228,7 +229,6 @@ header {
   font-weight: 100;
   font-size: 1em;
   color:#253b4d;
-
 
   color: white;
   background-color: #213e4e;
