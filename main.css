@@ -208,6 +208,21 @@ header {
   padding: 20px;
 }
 
+#separated {
+  border-top: 2px dotted #f98899;
+  padding-top: 15px;
+  text-align: center;
+  margin-left: -30px;
+  margin-right: -30px;
+  color: #4d4d4d;
+}
+
+address {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #595959;
+}
+
 .bloc-dotted {
   width: 400px;
   text-align: center;
